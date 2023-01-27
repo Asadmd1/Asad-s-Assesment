@@ -1,0 +1,58 @@
+.Whole_second_sec{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    margin:7rem 2rem;
+    margin-bottom:12rem;
+    padding: 4rem 6rem;
+    background-color: #F8F1E8;
+}
+
+.Whole_Person_Card{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom:4rem;
+}
+
+.Person_Name{
+    background-color: black;
+    color:white;
+    width:fit-content;
+    padding:0.3rem 1rem;
+    margin:1rem 0;
+    font-size:14px;
+    font-weight:500;
+}
+
+.Person_Role{
+    font-size:18px;
+    text-align: center;
+    max-width:200px;
+}
+
+.Whole_Person_Card img{
+    max-width:150px;
+}
+
+.Person_Count{
+    position:absolute;
+    top:0;
+    left:1rem;
+    color:#7B7B7B;
+}
+
+.darkarticle{
+
+}
+
+.bgchang{
+    background-color: #434241;
+}
+
+.bgchang .Person_Name{
+    background-color: white;
+    color:black
+}

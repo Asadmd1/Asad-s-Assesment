@@ -1,0 +1,64 @@
+.ReviewsContainer{
+    display:flex;
+    justify-content: space-between;
+    padding:4rem 3rem;
+    padding-bottom:5rem;
+    margin:4rem 2rem;
+    margin-bottom:10rem;
+    background-color: #F8F1E8;
+}
+
+.upperpart{
+    position:relative;
+}
+
+.upperpart img{
+    max-width:250px;
+    width:20vw;
+}
+
+.reviewsubContainer{
+    margin-right:1.5rem;
+}
+
+.reviewsubContainer:last-of-type{
+    margin-right:0;
+}
+
+.ratings{
+    display:flex;
+    align-items: center;
+    padding:0.3rem 1rem;
+    position:absolute;
+    bottom:5px;
+    left:1px;
+    background-color: black;
+    color:white;
+}
+
+.ratings img{
+    height:100%;
+    width:100%;
+    margin-right:0.5rem;
+}
+
+.declwid{
+    max-width:250px;
+}
+
+.bgdark{
+    background-color: #434241;
+}
+
+@media (max-width:1100px){
+    .ReviewsContainer{
+        padding:4rem 1rem;
+    }
+}
+
+@media (max-width:980px){
+    .ReviewsContainer{
+        flex-wrap:wrap;
+        justify-content: center;
+    }
+}

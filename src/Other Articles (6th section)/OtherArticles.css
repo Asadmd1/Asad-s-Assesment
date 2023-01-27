@@ -1,0 +1,61 @@
+.otherArticles {
+    display: flex;
+    justify-content: center;
+    margin: 8rem 2rem;
+    margin-bottom:12rem;
+}
+
+.wholeCard {
+    margin-right: 2rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.wholeCard .artclDetails .introlines{
+    max-width:350px;
+}
+
+.wholeCard img {
+    max-width: 400px;
+    width:30vw;
+}
+
+.wholeCard:last-of-type {
+    margin-right: 0;
+}
+
+.wholeCard .artclDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Acolumn .artclTag {
+    margin-top: 1rem;
+}
+
+.AreverseColumn .artclAuthor {
+    margin-bottom: 1rem;
+}
+
+@media (max-width:768px) {
+    .otherArticles{
+        flex-direction: column;
+    }
+    .wholeCard{
+        margin-right:0;
+        margin-bottom: 4rem;
+    }
+    .wholeCard img {
+        max-width: auto;
+        width:auto;
+    }
+}
+
+@media (max-width:430px){
+    .wholeCard img {
+        max-width: auto;
+        width:70vw;
+    }
+}

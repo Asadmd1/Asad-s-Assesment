@@ -1,0 +1,4 @@
+Note: 
+I could have used css grid instead of creating 
+two components but I avoid it because browser Support 
+is not good for css grid.

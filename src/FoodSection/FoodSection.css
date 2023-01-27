@@ -1,0 +1,30 @@
+.decwidth img{
+    max-width:100px;
+    margin-right:0.5rem;
+}
+
+
+.decwidth .artclDetails{
+    max-width:240px;
+}
+
+.decwidth{
+    margin-bottom:3.5rem;
+    align-items: flex-start;
+}
+
+.foodRow{
+    display:flex;
+    justify-content: space-between;
+}
+
+.allFoods{
+    margin:4rem;
+}
+
+@media(max-width:950px){
+    .foodRow {
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+}

@@ -1,0 +1,58 @@
+.menubtn {
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+}
+
+.menubtn p {
+    margin-top: -3px;
+    margin-left: 4px;
+    font-weight: 700;
+}
+
+.HeaderMenu {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    /* top:2rem; */
+    left: 0;
+}
+
+.HeaderMenu button {
+    height: fit-content;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.logonbtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+    position: relative;
+}
+
+.Headerlist {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+    border-bottom: 2px dashed #AEAEAC;
+    margin: 0 2rem;
+}
+
+.Headerlist li {
+    margin-right: 2rem;
+    font-weight: 700;
+}
+
+.Headerlist li:last-of-type {
+    margin-right: 0;
+}
+
+@media (max-width:768px) {
+    .Hlogo{
+        display:none;
+    }
+}

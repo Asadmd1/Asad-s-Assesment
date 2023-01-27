@@ -1,0 +1,48 @@
+.imgcontainer{
+    position:relative;
+    width:fit-content;
+}
+
+.playbtn{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+}
+
+.VideosContainer{
+    display:flex;
+    justify-content: space-between;
+    margin:4rem 2rem;
+    padding:4rem 0;
+    border-bottom: 2px dashed #AEAEAC;
+    padding-bottom:10rem;
+}
+
+.videosubcontainer{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.decenter .artclDetails{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.decenter .artclDetails .introlines{
+    max-width:250px;
+    text-align: center;
+}
+
+
+
+@media (max-width:1085px){
+    .imgcontainer .bgimage{
+        width:30vw;
+        max-width:300px;
+    }
+}

@@ -1,0 +1,119 @@
+.footerMenu{
+    display:flex;
+    justify-content: space-between;
+}
+
+li{
+    list-style-type: none;
+}
+
+.footerMenu ul p{
+    font-weight:700;
+    margin-bottom:0.7rem;
+}
+
+.footerMenu ul li{
+    margin-bottom:0.3rem;
+}
+
+.footerMenu ul p, .footerMenu ul li{
+    font-size:14px;
+}
+
+.subscriptionBox p{
+    font-size:14px;
+    font-weight:700;
+    margin-bottom:1rem;
+}
+
+.subscriptionBox form input{
+    padding:0.7rem 0.5rem;
+    padding-right:4rem;
+    font-size:12px;
+    background-color: #F8F1E8;
+    border:none;
+}
+
+
+.subscriptionBox form input::-webkit-input-placeholder {
+    font-weight:bolder;
+    opacity: 1;
+  }
+  
+.subscriptionBox form input:-ms-input-placeholder {
+    font-weight:bolder;
+    opacity: 1;
+  }
+  
+.subscriptionBox form input::placeholder {
+    font-weight:bolder;
+    opacity: 1;
+  }
+
+
+.subscriptionBox form button{
+    font-size:12px;
+    margin-left:-4rem;
+    padding:0.3rem 0.6rem;
+    border-radius: 0;
+    background-color: #F2F2EA;
+    font-weight:700;
+    border:none;
+    cursor:pointer;
+}
+
+.subscriptionBox form input::placeholder{
+    color:black;
+}
+
+.footerMain{
+    display:flex;
+    justify-content: space-between;
+    margin:0 2rem;
+}
+
+.bottomPart{
+    display:flex;
+    justify-content: space-between;
+    margin:4rem 2rem;
+    font-size:12px;
+    font-weight:700;
+    padding:0 3rem;
+    padding-bottom:2rem;
+    border-bottom:2px dashed #AEAEAC;
+}
+
+.footerMenu ul{
+    margin-right:4rem;
+}
+
+.footerMenu ul:last-of-type{
+    margin-right:0;
+}
+
+.darkinput form input{
+    background-color: rgb(35, 35, 35);
+    border:1px solid white;
+}
+
+.darkinput form input::placeholder{
+    color:white;
+}
+
+.darkinput form input::-webkit-input-placeholder {
+    font-weight:bolder;
+    opacity: 1;
+    color:white;
+  }
+  
+.darkinput form input:-ms-input-placeholder {
+    font-weight:bolder;
+    opacity: 1;
+    color:white;
+  }
+  
+.darkinput form input::placeholder {
+    font-weight:bolder;
+    opacity: 1;
+    color:white;
+  }

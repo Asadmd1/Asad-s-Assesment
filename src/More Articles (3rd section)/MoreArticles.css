@@ -1,0 +1,84 @@
+.Third_sec_Article {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem 2rem;
+    margin-bottom: 4rem;
+}
+
+.Third_sec_Article img {
+    max-width: 600px;
+    margin-right: 2rem;
+    width: 50vw;
+}
+
+.Alldaartcls {
+    margin-bottom: 10rem;
+}
+
+.Third_sec_Article .artclTitle {
+    font-size: 28px;
+    line-height: 1.1;
+}
+
+
+.Third_sec_Article .artclDetails .artclTag,
+.Third_sec_Article .artclDetails .artclTitle,
+.Third_sec_Article .artclDetails .introlines {
+    margin-bottom: 1.5rem;
+    max-width: 500px;
+}
+
+.Small_Card {
+    display: flex;
+    align-items: center;
+    margin-right: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.Small_Card:last-of-type {
+    margin-right: 0;
+}
+
+
+.Small_Card .introlines {
+    font-size: 1rem;
+    max-width: 150px;
+}
+
+.Small_Card img {
+    max-width: 200px;
+    margin-right: 1rem;
+}
+
+.Small_Card .artclTag,
+.Small_Card .introlines {
+    margin-bottom: 0.5rem;
+}
+
+.Lower_Cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media (max-width:860px) {
+    .Third_sec_Article .artclDetails {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .Third_sec_Article{
+        flex-direction: column;
+    }
+    .Third_sec_Article img{
+        width:80vw;
+        margin:0;
+        margin-bottom:1rem;
+    }
+    .Small_Card{
+        margin-right:0;
+    }
+}

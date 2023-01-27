@@ -1,0 +1,63 @@
+.AllCards{
+    display:flex;
+    justify-content: space-between;
+    margin-top:6rem;
+    background-color: #F8F1E8;
+    margin:5rem 2rem;
+    margin-bottom:12rem;
+    padding: 3rem 2rem;
+}
+
+.bgblcak{
+    background-color: #434241;
+}
+
+.Each_Card img{
+    max-width: 240px;
+    width:19vw;
+}
+
+
+.Each_Card .artclTag, .Each_Card .introlines, .Each_Card img{
+    margin-bottom:1.3rem;
+}
+
+.Each_Card .introlines{
+    max-width:220px;
+    line-height: 1.2;
+}
+
+.Each_Card{
+    margin-right:2.5rem;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.Each_Card .artclAuthor{
+    font-size:12px;
+    font-weight:500;
+}
+
+.Each_Card .artclDetails{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(max-width:1030px){
+    .AllCards{
+        flex-wrap: wrap;
+    }
+    .Each_Card{
+        margin-bottom:5rem;
+    }
+    .Each_Card img{
+        width:auto;
+    }
+    .AllCards{
+        justify-content: center;
+    }
+}

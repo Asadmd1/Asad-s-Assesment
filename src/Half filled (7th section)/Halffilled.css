@@ -1,0 +1,118 @@
+.datag {
+    padding: 0.2rem 1rem;
+    border: 1px solid black;
+    width: fit-content;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.transparenttag {
+    background-color: transparent;
+    color: black;
+}
+
+.blacktag {
+    background-color: black;
+    color: white;
+}
+
+.datitle {
+    color: black;
+    font-weight: 500;
+    font-size: 28px;
+}
+
+.dadesc {
+    color: black;
+}
+
+.datag,
+.datitle {
+    margin-bottom: 2rem;
+}
+
+.lighttitle {
+    opacity: 0.2;
+}
+
+.darkdesc {
+    font-weight: 500;
+}
+
+.lightdesc {
+    opacity: 0.2;
+    font-weight: 200;
+}
+
+.wholeGlass {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 2rem;
+    background-color: #F8F1E8;
+    padding: 5rem 3rem;
+    padding-top: 10rem;
+    position: relative;
+    margin-bottom: 12rem;
+}
+
+.sidePart {
+    max-width: 320px;
+}
+
+
+.fposition {
+    position: absolute;
+    top: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.changebg {
+    background-color: #434241;
+}
+
+.changebg .blacktag {
+    background-color: white;
+    color: black;
+}
+
+.changebg .darktitle,
+.changebg .darkdesc {
+    color: white;
+}
+
+.changebg .lighttitle,
+.changebg .lightdesc {
+    color: #696867;
+}
+
+.changebg .transparenttag {
+    border: 1px solid white;
+    color: white;
+}
+
+.glassSection img {
+    width: 24vw;
+    margin: 0 2rem;
+}
+
+.darkGlassw {
+    mix-blend-mode: screen;
+}
+
+.nowhite {
+    mix-blend-mode: multiply;
+}
+
+@media (max-width:1060px) {
+    .wholeGlass {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    .glassSection img {
+        width: 20vw;
+        margin: 5rem 0;
+    }
+}
